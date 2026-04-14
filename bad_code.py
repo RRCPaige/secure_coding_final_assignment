@@ -6,7 +6,7 @@ import sqlite3
 ACCOUNTS = {
     1001: {"id": 1, "name": "alice"},
     1002: {"id": 2, "name": "bob"},
-    1003: {"id": 3, "name": 'carl'}
+    1003: {"id": 3, "name": "carl"}
 }
 
 def get_balance(account_number):
